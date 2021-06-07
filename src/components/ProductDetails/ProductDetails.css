@@ -2,7 +2,7 @@
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1),
     0px 0px 14px 0px rgba(0, 0, 0, 0.1);
     max-height: 1000px;
-    max-width: 400px;
+    max-width: 375px;
   }
   #product img {
     height: 100%;
@@ -17,13 +17,14 @@
   #subtitle {
     text-align: center;
     font-weight: 300;
-    color: var(--gray);
+    color: grey;
     padding: 2%;
   }
   #spans {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
+
   }
 
   .tags {
@@ -31,6 +32,10 @@
     padding: 7px;
     border-radius: 10%;
     margin:10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    box-sizing: border-box;
   }
  
   
