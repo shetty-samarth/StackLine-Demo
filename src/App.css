@@ -8,7 +8,7 @@
   background-color: #f6f8fa;
 }
 
-.app-content {
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

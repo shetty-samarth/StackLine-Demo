@@ -23,6 +23,7 @@ const Charts = () =>{
     console.log(retail,wholesale,dates)
     const options = {
         chart: {
+            height:'300px',
             type: 'spline',
             scrollablePlotArea: {
                 minWidth: 600,

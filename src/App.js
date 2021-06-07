@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
      <NavBar className="nav" />
-     <div className="app-content">
+     <div className="content">
        <ProductDetails />
        <div>
          <Chart className="chart"/>
